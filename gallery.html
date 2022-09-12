@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project OOW Endangered Animals</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header> <!--this a good pratice to have header, main and footer so it becomes more readeable.-->
+            <div class="topnav">
+                <div class="wrapper">
+                    <a href="homepage.html">Home</a>
+                    <a class="active">Gallery</a>
+                    <a href="description.html">About</a>
+                </div>
+            </div>
+            <div class="wrapper">
+                <center><h1 class="h1-style">Gallery</h1></center>
+            </div>
+        </header>
+        <main>
+            <div class="full-img" id="fullImgBox":>
+                <img src="arabian gazelle pic 1.jpg" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="gallery">
+                <img src="arabian gazelle pic 1.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 2.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 3.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 4.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 5.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 6.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 7.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 8.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 9.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 10.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 11.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 12.jpg" onclick="openFullImg(this.src)">
+            </div>
+        </main>
+        <footer>
+            
+        </footer>
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg(pic){
+            fullImgBox.style.display = "none";
+        }
+    </script>
+    </body>
+
+</html>
