@@ -14,7 +14,7 @@ body {
 }
 .topnav {
     background-color: black;
-    width: 200%;
+    min-width: 200%;
     overflow: hidden;
 }
 .topnav a {
