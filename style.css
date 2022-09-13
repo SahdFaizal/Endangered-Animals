@@ -65,7 +65,7 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 100;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .full-img img { 
     width: 90%;
