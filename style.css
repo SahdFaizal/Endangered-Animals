@@ -8,7 +8,8 @@
 body {
     margin: 0;
     background-image: url(arabian\ gazelle\ pic\ 1.jpg);
-    background_size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: 100%;
     width: 100%;
