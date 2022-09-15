@@ -7,9 +7,9 @@
 }
 body {
     margin: 0;
-    background-image: (url(arabian\ gazelle\ pic\ 12.jpg);
+    background-image: url(arabian\ gazelle\ pic\ 12.jpg);
     background-size: cover;
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;
