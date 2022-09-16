@@ -62,11 +62,6 @@ body {
   margin: 0;
 }
 
-.topnav a:hover, .topsubnav:hover .subnavbtn a{
-    background-color: white;
-    color: black;
-}
-
 .wrapper {
     margin:0 50px;
 }
