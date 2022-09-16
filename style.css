@@ -3,9 +3,11 @@
     font-family: Algerian;
     text-align: center;
 }
+
 .question-style {
     color: rgb(130, 0, 0);
 }
+
 body {
     margin: 0;
     background-image: url(arabian\ gazelle\ pic\ 12.jpg);
@@ -17,12 +19,14 @@ body {
 
 .text-style {
     color: rgb(115, 15, 115);
-    font-family:Amasis MT Pro;
+    font-family: Amasis MT Pro;
 }
+
 .topnav {
     background-color: black;
     overflow: hidden;
 }
+
 .topnav a {
     float: left;
     color: white;
@@ -31,6 +35,7 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
+
 .topnav a:hover {
     background-color: white;
     color: black;
@@ -41,6 +46,26 @@ body {
     color: white;
 }
 
+.topsubnav {
+    float: left; 
+    overflow: hidden;
+}
+
+.topsubnav a {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.topnav a:hover, .topsubnav:hover .subnavbtn a{
+  background-color: red;
+}
+
 .wrapper {
     margin:0 50px;
 }
@@ -48,6 +73,7 @@ body {
 .gallery {
     width: 100%;
 }
+
 .gallery img {
     width: 250px;
     height: 150px;
@@ -73,6 +99,7 @@ body {
     justify-content: center;
     z-index: 100;
 }
+
 .full-img img { 
     width: 90%;
     max-width: 500px;
