@@ -63,7 +63,6 @@ body {
 
 .topnav a:hover, .subnav:hover .a {
   background-color: green;
-  color: black;
 }
 
 .subnav-content {
