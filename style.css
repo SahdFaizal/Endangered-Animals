@@ -61,7 +61,7 @@ body {
   margin: 0;
 }
 
-.topnav a:hover, .subnav:hover .a {
+.navbar a:hover, .subnav:hover .subnavbtn {
   background-color: green;
 }
 
