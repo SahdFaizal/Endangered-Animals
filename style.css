@@ -1,6 +1,7 @@
 .h1-style {
-    color:rgb(15, 15, 255);
-    font-family:Algerian;
+    color: rgb(15, 15, 255);
+    font-family: Algerian;
+    text-align: center;
 }
 .question-style {
     color: rgb(130, 0, 0);
