@@ -9,11 +9,10 @@
 body {
     margin: 0;
     background-image: url(arabian\ gazelle\ pic\ 12.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: window.innerWidth;
-    width: window.innerHeight;
+    height: 100vh;
 }
 
 .text-style {
