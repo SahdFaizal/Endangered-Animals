@@ -62,14 +62,14 @@ body {
 }
 
 .topnav a:hover, .subnav:hover .a {
-  background-color: red;
+  background-color: green;
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: green;
   width: 100%;
   z-index: 1;
 }
