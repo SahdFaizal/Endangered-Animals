@@ -62,14 +62,14 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: green;
+  background-color: rgb(85, 110, 50);
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: green;
+  background-color: rgb(85, 110, 50);
   width: 100%;
   z-index: 1;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .subnav-content a:hover {
-  background-color: green;
+  background-color: rgb(85, 110, 50);
   color: black;
 }
 
@@ -89,7 +89,7 @@ body {
   display: block;
 }
 .btn-color {
-    color: green;
+    color: rgb(85, 110, 50);
 }
 .wrapper {
     margin:0 50px;
