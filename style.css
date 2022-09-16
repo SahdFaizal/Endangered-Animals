@@ -63,7 +63,8 @@ body {
 }
 
 .topnav a:hover, .topsubnav:hover .subnavbtn a{
-  background-color: red;
+    background-color: white;
+    color: black;
 }
 
 .wrapper {
