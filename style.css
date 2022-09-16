@@ -50,7 +50,7 @@ body {
   overflow: hidden;
 }
 
-.subnav .a {
+.subnav .subnavbtn{
   font-size: 16px;  
   border: none;
   outline: none;
