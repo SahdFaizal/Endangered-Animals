@@ -50,7 +50,7 @@ body {
   overflow: hidden;
 }
 
-.subnav .subnavbtn {
+.subnav .a {
   font-size: 16px;  
   border: none;
   outline: none;
@@ -61,7 +61,7 @@ body {
   margin: 0;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.topnav a:hover, .subnav:hover .a {
   background-color: red;
 }
 
