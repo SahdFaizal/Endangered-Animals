@@ -52,13 +52,23 @@ body {
 
 .subnav .subnavbtn{
   font-size: 16px;  
-  border: none;
+  border: inherit;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 15px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+.subnav .subnavbtn-active{
+    font-size: 16px;  
+    border: inherit;
+    outline: none;
+    color: white;
+    padding: 15px 16px;
+    background-color: green;
+    font-family: inherit;
+    margin: 0;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
@@ -67,10 +77,10 @@ body {
 
 .subnav-content {
   display: none;
-  position: absolute;
-  left: 0;
+  position: fixed;
+  left: 150px;
   background-color: rgb(85, 110, 50);
-  width: 100%;
+  width: 12.5%;
   z-index: 1;
 }
 
@@ -88,9 +98,7 @@ body {
 .subnav:hover .subnav-content {
   display: block;
 }
-.btn-color {
-    color: rgb(85, 110, 50);
-}
+
 .wrapper {
     margin:0 50px;
 }
@@ -139,4 +147,3 @@ body {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
-
