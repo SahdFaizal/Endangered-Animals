@@ -34,6 +34,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: Calibri;
 }
 
 .topnav a:hover {
@@ -57,7 +58,7 @@ body {
   color: white;
   padding: 15px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: Calibri;
   margin: 0;
 }
 .subnav .subnavbtn-active{
