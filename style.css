@@ -52,7 +52,7 @@ body {
 }
 
 .subnav .subnavbtn{
-  font-size: 16px;  
+  font-size: 17px;  
   border: inherit;
   outline: none;
   color: white;
@@ -62,7 +62,7 @@ body {
   margin: 0;
 }
 .subnav .subnavbtn-active{
-    font-size: 16px;  
+    font-size: 17px;  
     border: inherit;
     outline: none;
     color: white;
