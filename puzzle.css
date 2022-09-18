@@ -33,5 +33,6 @@ body {
 #pieces img {
     width: 79px; 
     height: 79px;
+    padding: 0.5px 0.5px;
     border: 0.5 solid lightblue;
 }
