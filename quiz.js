@@ -105,8 +105,8 @@ const questions = [
   {
     question: 'Which place does Arabian Gazelle lives?',
     answers: [
-      { text: 'Desert', correct: True },
-      { text: 'Forest', correct: False }
+      { text: 'Desert', correct: true },
+      { text: 'Forest', correct: false }
     ]
   }
 ]
