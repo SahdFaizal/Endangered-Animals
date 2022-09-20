@@ -1,9 +1,12 @@
+:root {
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
 main {
     box-sizing: border-box;
     font-family: Algerian;
     --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
     --hue: var(--hue-neutral);
     display: flex;
     width: 100vw;
