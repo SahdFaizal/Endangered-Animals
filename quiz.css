@@ -3,7 +3,7 @@
   --hue-correct: 145;
 }
 
-main {
+#main {
     box-sizing: border-box;
     font-family: Algerian;
     --hue-neutral: 200;
@@ -16,11 +16,11 @@ main {
     background-color: hsl(var(--hue), 100%, 20%);
 }
 
-main.correct {
+#main.correct {
     --hue: var(--hue-correct);
 }
 
-main.wrong {
+#main.wrong {
     --hue: var(--hue-wrong);
 }
 
