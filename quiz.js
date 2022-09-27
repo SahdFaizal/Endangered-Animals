@@ -59,6 +59,7 @@ function selectAnswer(e) {
     nextButton.classList.remove('hide')
   } else {
     startButton.innerText = 'Restart'
+    startButton.classList.add('restart')
     startButton.classList.remove('hide')
   }
 }
@@ -111,4 +112,5 @@ const questions = [
     ]
   }
 ]
+
 
