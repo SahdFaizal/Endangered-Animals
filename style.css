@@ -148,3 +148,7 @@ body {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+main {
+    background-color: rgb(160, 190, 160);
+}
