@@ -1,15 +1,9 @@
-<!DOCTYPE html><html><head>
-  <script src="p5.js"></script>
-  <script src="p5.dom.min.js"></script>
-<script src="./p5.play.js"></script>
-  <link rel="stylesheet" type="text/css" href="gamez.css">
-  <meta charset="utf-8">
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Project OOW Endangered Animals</title>
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <header> <!--this a good pratice to have header, main and footer so it becomes more readeable.-->
@@ -17,30 +11,46 @@
                 <div class="wrapper">
                     <a href="homepage.html">Home</a>
                     <div class="subnav">
-                        <button class="subnavbtn-active">Games</i></button>
+                        <button class="subnavbtn">Games</i></button>
                         <div class="subnav-content">
-                          <a>gazelle run</a>
+                          <a href="gamez.html">gazelle run</a>
                           <a href="gazelle jigsaw puzzle.html">jigsaw puzzle</a>
                           <a href="quiz.html">gazelle quiz</a>
                         </div>
                     </div> 
-                    <a href="gallery.html">Gallery</a>
+                    <a href="blogpage.html">BlogPage</a>
+                    <a class="active">Gallery</a>
                     <a href="description.html">About</a>
                 </div>
             </div>
             <div class="wrapper">
-                <h1 class="h1-style">gazelle run</h1>
+                <h1 class="h1-style">Gallery</h1>
             </div>
         </header>
         <main>
-            <div class="wrapper">
-                <br>
-                <script src="games.js"></script>
-            </div>       
+            <div class="full-img" id="fullImgBox":>
+                <img src="arabian gazelle pic 1.jpg" id="fullImg">
+                <span onclick="closeFullImg()">X</span>
+            </div>
+            <div class="gallery">
+                <img src="arabian gazelle pic 1.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 2.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 3.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 4.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 5.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 6.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 7.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 8.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 9.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 10.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 11.jpg" onclick="openFullImg(this.src)">
+                <img src="arabian gazelle pic 12.jpg" onclick="openFullImg(this.src)">
+            </div>
         </main>
         <footer>
             
         </footer>
+     <script src="sketch.js"> </script>
     </body>
 
 </html>
