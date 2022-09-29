@@ -114,8 +114,8 @@ const questions = [
   {
     question: 'How much percent of Arabian Gazelle population have increased?',
     answers: [
-      { text: '22%', correct: true },
-      { text: '50%', correct: false }
+      { text: '50%', correct: false },
+      { text: '22%', correct: true }
     ]
   },
   {
@@ -128,8 +128,8 @@ const questions = [
   {
     question: 'What is the intiative U.A.E took?',
     answers: [
-      { text: 'Inbreeding programme', correct: true },
-      { text: 'Breeding programme', correct: false }
+      { text: 'Habitat programme', correct: false },
+      { text: 'Inbreeding programme', correct: true }
     ]
   },
   {
@@ -142,8 +142,8 @@ const questions = [
   {
     question: 'Is U.A.E intiatives grant sucess?',
     answers: [
-      { text: 'Yes', correct: true },
-      { text: 'No', correct: false }
+      { text: 'No', correct: false },
+      { text: 'Yes', correct: true }
     ]
   },
   {
