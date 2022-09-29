@@ -110,7 +110,49 @@ const questions = [
       { text: 'Desert', correct: true },
       { text: 'Forest', correct: false }
     ]
-  }
+  }, 
+  {
+    question: 'How much percent of Arabian Gazelle population have increased?',
+    answers: [
+      { text: '22%', correct: true },
+      { text: '50%', correct: false }
+    ]
+  },
+  {
+    question: 'How much percent of Arabian Gazelle population have increased?',
+    answers: [
+      { text: '22%', correct: true },
+      { text: '50%', correct: false }
+    ]
+  },
+  {
+    question: 'What is the intiative U.A.E took?',
+    answers: [
+      { text: 'Inbreeding programme', correct: true },
+      { text: 'Breeding programme', correct: false }
+    ]
+  },
+  {
+    question: 'Where are they found?',
+    answers: [
+      { text: 'Middle East', correct: true },
+      { text: 'North America', correct: false }
+    ]
+  },
+  {
+    question: 'Is U.A.E intiatives grant sucess?',
+    answers: [
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: false }
+    ]
+  },
+  {
+    question: 'Will U.A.E be able to protect Arabian Gazelle?',
+    answers: [
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: false }
+    ]
+  },
 ]
 
 
