@@ -152,3 +152,160 @@ body {
 main {
     background-color: rgb(160, 190, 160);
 }
+
+@media (max-widthL 500px) {
+    .h1-style {
+    color: rgb(15, 15, 255);
+    font-family: Algerian;
+    text-align: center;
+}
+
+.question-style {
+    color: rgb(130, 0, 0);
+}
+
+body {
+    margin: 0;
+    background-image: url(arabian\ gazelle\ pic\ 12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.text-style {
+    color: rgb(115, 15, 115);
+    font-family: Amasis MT Pro;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 75px 80px;
+    text-decoration: none;
+    font-size: 85px;
+    font-family: Calibri;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn{
+  font-size: 85px;  
+  border: inherit;
+  outline: none;
+  color: white;
+  padding: 75px 80px;
+  background-color: inherit;
+  font-family: Calibri;
+  margin: 0;
+}
+.subnav .subnavbtn-active{
+    font-size: 85px;  
+    border: inherit;
+    outline: none;
+    color: white;
+    padding: 75px 80px;
+    background-color: green;
+    font-family: Calibri;
+    margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: rgb(85, 110, 50);
+}
+
+.subnav-content {
+  display: none;
+  position: fixed;
+  left: 150px;
+  background-color: rgb(85, 110, 50);
+  width: 12.5%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: rgb(85, 110, 50);
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.wrapper {
+    margin:0 100px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+    padding: 40px 40px;
+}
+
+.gallery img:hover {
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.full-img {
+    width: 100%;
+    height: 100vh; 
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.full-img img { 
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    font-family: calibri;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(160, 190, 160);
+}
+}
