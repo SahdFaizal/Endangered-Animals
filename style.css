@@ -175,7 +175,7 @@ main {
     background-color: rgb(160, 190, 160);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .wrapper {
         margin: 0 50px;
     }
@@ -183,13 +183,12 @@ main {
         font-size: 14px;
     }
     .subnav .subnavbtn {
-        font-size: 14px;
+        display: none;
     }
     .subnav-content {
-        width: 100%;
-        left: 0px;
+        display: none;
     }
     .subnav .subnavbtn-active {
-        font-size: 14px;
+        display: none;
     }
 }
