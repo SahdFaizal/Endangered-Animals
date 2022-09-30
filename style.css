@@ -174,3 +174,22 @@ body {
 main {
     background-color: rgb(160, 190, 160);
 }
+
+@media (max-width: 600px) {
+    .wrapper {
+        margin: 0 50px;
+    }
+    .topnav a { 
+        font-size: 14px;
+    }
+    .subnav .subnavbtn {
+        font-size: 14px;
+    }
+    .subnav-content {
+        width: 100%;
+        left: 0px;
+    }
+    .subnav .subnavbtn-active {
+        font-size: 14px;
+    }
+}
