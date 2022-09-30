@@ -31,7 +31,9 @@ body {
     width: 30px; 
     height: 21px; 
 }
-
+.toggle-button:hover {
+    background-color: white;
+}
 .toggle-button .bar {
     height: 3px; 
     width; 100%; 
@@ -39,8 +41,7 @@ body {
     border-radius: 10px;
 }
 .toggle-button .bar:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
 }
 
 .topnav {
