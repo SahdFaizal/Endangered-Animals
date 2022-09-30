@@ -38,7 +38,8 @@ body {
     border-radius: 10px;
 }
 .toggle-button .bar:hover {
-    color: green; 
+    background-color: white;
+    color: black;
 }
 
 .topnav {
