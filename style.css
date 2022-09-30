@@ -35,6 +35,7 @@ body {
 .toggle-button .bar {
     height: 3px; 
     width; 100%; 
+    background-color: white;
     border-radius: 10px;
 }
 .toggle-button .bar:hover {
