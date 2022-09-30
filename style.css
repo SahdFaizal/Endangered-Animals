@@ -21,29 +21,6 @@ body {
     color: rgb(115, 15, 115);
     font-family: Amasis MT Pro;
 }
-.toggle-button {
-    position: absolute;
-    top: .75rem; 
-    right: 1rem; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 30px; 
-    height: 21px; 
-}
-.toggle-button:hover {
-    background-color: white;
-}
-.toggle-button .bar {
-    height: 3px; 
-    width; 100%; 
-    background-color: white;
-    border-radius: 10px;
-}
-.toggle-button .bar:hover {
-    background-color: black;
-}
-
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -126,6 +103,24 @@ body {
     margin:0 100px;
 }
 
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .grid-image {
+    display: block;
+    flex-basis: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .grid-image:hover {
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
 .gallery {
     width: 100%;
 }
@@ -203,3 +198,21 @@ main {
         display: none;
     }
 }
+
+@media only screen and (min-width: 960px) {
+    .grid-image {
+      flex-basis: 33.333%;
+    }
+  }
+   
+  @media only screen and (min-width: 1280px) {
+    .grid-image {
+      flex-basis: 25%;
+    }
+  }
+   
+  @media only screen and (min-width: 1600px) {
+    .grid-image {
+      flex-basis: 20%;
+    }
+  }
