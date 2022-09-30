@@ -143,11 +143,11 @@ if(mousePressedOver(restart)) {
     drawSprites();
     //Displaying the distance.
     fill('white');
-    textSize(12.5);
+    textSize(20);
     text("Distance: "+ distance, (windowWidth/1.5)-25, 50);
     //Displaying the score
     fill('white');
-    textSize(12.5);
+    textSize(20);
     text("Score: "+ score, (windowWidth/1.15)-25,50);
 }
 
