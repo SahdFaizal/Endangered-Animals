@@ -192,3 +192,14 @@ main {
         display: none;
     }
 }
+@media (max-width: 1080px) {
+    .subnav .subnavbtn {
+        display: none;
+    }
+    .subnav-content {
+        display: none;
+    }
+    .subnav .subnavbtn-active {
+        display: none;
+    }
+}
