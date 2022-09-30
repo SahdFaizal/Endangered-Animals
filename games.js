@@ -13,6 +13,7 @@ var END =0;
 var PLAY =1;
 var gameState = PLAY;
 
+var scoreSound , checkPointSound, dieSound;
 var distance, score;
 var gameOver, restart;
 var obstaclesGroup, coinsGroup;
@@ -33,6 +34,10 @@ function preload(){
     restartImg = loadImage("restart.png");
 
     coinImg = loadImage("coin.png");
+    
+    scoreSound = loadSound("jump.mp3");
+    dieSound = loadSound("die.mp3");
+    checkPointSound = loadSound("checkPoint.mp3");
 
 }
 
@@ -89,6 +94,10 @@ if(gameState === PLAY){
     if(path.x > windowWidth){
         path.x = width /2;
     }
+    //playing the checkpoint sound.
+    if(distance>0 && distance%100 === 0){
+        checkPointSound.play(); 
+     }
     //Setting the controls for the gazelle.
     gazelle.y = World.mouseY;
     //Creating the edges.
@@ -100,9 +109,11 @@ if(gameState === PLAY){
 
     if(obstaclesGroup.isTouching(gazelle)){
         gameState = END;
+        dieSound.play();
     }
     if(coinsGroup.isTouching(gazelle)){
         score=score+2;
+        scoreSound.play();
         coinsGroup.destroyEach();
     }
 }
