@@ -21,6 +21,23 @@ body {
     color: rgb(115, 15, 115);
     font-family: Amasis MT Pro;
 }
+.toggle-button {
+    position: absolute;
+    top: .75rem; 
+    right: 1rem; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 30px; 
+    height: 21px; 
+}
+
+.toggle-button .topnav {
+    height: 3px; 
+    width; 100%; 
+    background-color: white; 
+    border-radius: 10px;
+}
 
 .topnav {
     background-color: black;
@@ -98,24 +115,6 @@ body {
 
 .subnav:hover .subnav-content {
   display: block;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem; 
-    right: 1rem; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 30px; 
-    height: 21px; 
-}
-
-.toggle-button .bar {
-    height: 3px; 
-    width; 100%; 
-    background-color: white; 
-    border-radius: 10px;
 }
 
 .wrapper {
