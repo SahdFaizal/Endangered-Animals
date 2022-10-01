@@ -119,13 +119,6 @@ const questions = [
     ]
   },
   {
-    question: 'How much percent of Arabian Gazelle population have increased?',
-    answers: [
-      { text: '22%', correct: true },
-      { text: '50%', correct: false }
-    ]
-  },
-  {
     question: 'What is the intiative U.A.E took?',
     answers: [
       { text: 'Habitat programme', correct: false },
